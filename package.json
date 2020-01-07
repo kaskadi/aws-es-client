@@ -6,6 +6,11 @@
   "scripts": {
     "test": "mocha"
   },
+  "homepage":"https://github.com/kaskadi/aws-es-client",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/kaskadi/aws-es-client"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
