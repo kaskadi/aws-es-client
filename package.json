@@ -1,0 +1,17 @@
+{
+  "name": "aws-es-client",
+  "version": "0.0.1",
+  "description": "aws elasticsearch client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.598.0",
+    "elasticsearch": "^16.5.0",
+    "http-aws-es": "^6.0.0"
+  }
+}
