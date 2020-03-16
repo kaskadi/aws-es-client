@@ -6,17 +6,17 @@
   "scripts": {
     "test": "mocha"
   },
-  "homepage":"https://github.com/kaskadi/aws-es-client",
+  "homepage": "https://github.com/kaskadi/aws-es-client",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kaskadi/aws-es-client"
+    "type": "git",
+    "url": "https://github.com/kaskadi/aws-es-client"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.598.0",
-    "elasticsearch": "^16.5.0",
-    "http-aws-es": "^6.0.0"
+    "http-aws-es": "^6.0.0",
+    "elasticsearch": "^15.0.0"
   },
   "devDependencies": {
     "mocha": "^7.0.0"
