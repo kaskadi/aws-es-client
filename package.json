@@ -1,6 +1,6 @@
 {
   "name": "aws-es-client",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "aws elasticsearch client",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,11 @@
     "url": "https://github.com/kaskadi/aws-es-client"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.598.0",
-    "http-aws-es": "^6.0.0",
-    "elasticsearch": "^15.0.0"
+    "@acuris/aws-es-connection": "^1.0.1",
+    "@elastic/elasticsearch": "^7.6.1",
+    "aws-sdk": "^2.598.0"
   },
   "devDependencies": {
     "mocha": "^7.0.0"
