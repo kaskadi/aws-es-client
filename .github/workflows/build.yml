@@ -1,4 +1,4 @@
-name: test
+name: build
 on:
   push:
     branches:
@@ -7,17 +7,16 @@ on:
     paths:
       - 'index.js'
       - 'test/**'
-      - '.github/workflows/testing.yml'
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: npm ci
+      run: npm i
     - name: Tests
       run: npm test
       env:
-        AWS_ES_URL: ${{ secrets.AWS_ES_URL }}
-        AWS_ES_ID: ${{ secrets.AWS_ES_ID }}
-        AWS_ES_TOKEN: ${{ secrets.AWS_ES_TOKEN }}
+        ES_ID: ${{ secrets.ES_ID }}
+        ES_SECRET: ${{ secrets.ES_SECRET }}
+        ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }}

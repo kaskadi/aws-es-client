@@ -17,9 +17,9 @@ jobs:
     - name: Tests
       run: npm test
       env:
-        AWS_ES_URL: ${{ secrets.AWS_ES_URL }}
-        AWS_ES_ID: ${{ secrets.AWS_ES_ID }}
-        AWS_ES_TOKEN: ${{ secrets.AWS_ES_TOKEN }}
+        ES_ID: ${{ secrets.ES_ID }}
+        ES_SECRET: ${{ secrets.ES_SECRET }}
+        ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }}
     - uses: actions/setup-node@v1
       with:
         node-version: 12
