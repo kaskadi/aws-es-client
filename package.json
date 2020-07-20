@@ -14,11 +14,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@acuris/aws-es-connection": "^1.0.1",
-    "@elastic/elasticsearch": "^7.6.1",
-    "aws-sdk": "^2.598.0"
+    "@acuris/aws-es-connection": "^1.1.0",
+    "@elastic/elasticsearch": "^7.8.0",
+    "aws-sdk": "^2.715.0"
   },
   "devDependencies": {
-    "mocha": "^7.0.0"
+    "mocha": "^8.0.1"
   }
 }
