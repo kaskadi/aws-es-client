@@ -16,9 +16,9 @@
   "dependencies": {
     "@acuris/aws-es-connection": "^1.1.0",
     "@elastic/elasticsearch": "^7.8.0",
-    "aws-sdk": "^2.715.0"
+    "aws-sdk": "^2.734.0"
   },
   "devDependencies": {
-    "mocha": "^8.0.1"
+    "mocha": "^8.1.1"
   }
 }
