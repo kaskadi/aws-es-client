@@ -4,7 +4,8 @@
   "description": "aws elasticsearch client",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc npm test"
   },
   "homepage": "https://github.com/kaskadi/aws-es-client",
   "repository": {
@@ -19,6 +20,15 @@
     "aws-sdk": "^2.734.0"
   },
   "devDependencies": {
-    "mocha": "^8.1.1"
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "reporter": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "report-dir": "./coverage"
   }
 }
