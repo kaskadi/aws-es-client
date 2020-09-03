@@ -1,22 +1,30 @@
 name: build
 on:
-  push:
+  pull_request:
     branches:
       - 'master'
       - 'release/**'
+    types: [opened, reopened, edited, synchronize]
     paths:
       - 'index.js'
       - 'test/**'
 jobs:
-  build:
+  coverage:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: npm i
-    - name: Tests
-      run: npm test
+    - name: Generate coverage report
+      run: npm run coverage
       env:
         ES_ID: ${{ secrets.ES_ID }}
         ES_SECRET: ${{ secrets.ES_SECRET }}
         ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }}
+    - name: Upload report to Code Climate
+      uses: kaskadi/action-cc-reporter@master
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.REPORTER_ID }}
+        GIT_BRANCH: ${{ github.base_ref }}
+        GIT_COMMIT: ${{ github.sha }}
+      
