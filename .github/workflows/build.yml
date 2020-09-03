@@ -3,11 +3,12 @@ on:
   pull_request:
     branches:
       - 'master'
-      - 'dev'
+      - 'release/**'
     types: [opened, reopened, edited, synchronize]
     paths:
       - 'index.js'
       - 'test/**'
+      - 'package.json'
 jobs:
   coverage:
     runs-on: ubuntu-latest
