@@ -48,7 +48,7 @@ Once the client has been instanciated, you can use all the methods available in 
 
 | Param | Type | Description |
 | --- | --- | --- |
-| opts | <code>Options</code> | [aws-es-client~Options](aws-es-client~Options) to be passed to instanciate a new client |
+| opts | <code>Options</code> | [Options](#module_aws-es-client--module.exports..Options) to be passed to instanciate a new client |
 
 **Example**  
 ```js
