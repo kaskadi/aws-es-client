@@ -8,12 +8,12 @@ const AWS = require('aws-sdk')
  */
 
 /**
- * Options for the new ElasticSearch client instanciation
+ * ElasticSearch client options
  * @typedef {Object} Options
- * @property {string} [region='eu-central-1'] - The region in which your ElasticSearch cluster lives
- * @property {string} url - The URL of your ElasticSearch cluster on AWS
- * @property {string} id - The ID of a programmatic user having access to ElasticSearch service on AWS
- * @property {string} token - The token of a programmatic user having access to ElasticSearch service on AWS
+ * @property {string} [region=eu-central-1] - ElasticSearch cluster region
+ * @property {string} url - ElasticSearch cluster URL
+ * @property {string} id - Programmatic user ID (needs access to ElasticSearch cluster)
+ * @property {string} token - Programmatic user token (needs access to ElasticSearch cluster)
  */
 
 /**
