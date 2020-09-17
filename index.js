@@ -21,7 +21,7 @@ const AWS = require('aws-sdk')
  * 
  * Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client (see [here](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html) for details)
  * @function
- * @param {Options} opts - {@link aws-es-client~Options} to be passed to instanciate a new client
+ * @param {Options} opts - [Options]{@link module:aws-es-client~Options} to be passed to instanciate a new client
  * @return {ES} New ElasticSearch client
  *
  * @example
