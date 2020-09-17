@@ -61,14 +61,14 @@ const ES = require('aws-es-client')({
 <a name="module_aws-es-client--module.exports..Options"></a>
 
 #### module.exports~Options : <code>Object</code>
-Options for the new ElasticSearch client instanciation
+ElasticSearch client options
 
 **Kind**: inner typedef of [<code>module.exports</code>](#exp_module_aws-es-client--module.exports)  
 **Properties**
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
-| [region] | <code>string</code> | <code>&quot;&#x27;eu-central-1&#x27;&quot;</code> | The region in which your ElasticSearch cluster lives |
-| url | <code>string</code> |  | The URL of your ElasticSearch cluster on AWS |
-| id | <code>string</code> |  | The ID of a programmatic user having access to ElasticSearch service on AWS |
-| token | <code>string</code> |  | The token of a programmatic user having access to ElasticSearch service on AWS |
+| [region] | <code>string</code> | <code>&quot;eu-central-1&quot;</code> | ElasticSearch cluster region |
+| url | <code>string</code> |  | ElasticSearch cluster URL |
+| id | <code>string</code> |  | Programmatic user ID (needs access to ElasticSearch cluster) |
+| token | <code>string</code> |  | Programmatic user token (needs access to ElasticSearch cluster) |
