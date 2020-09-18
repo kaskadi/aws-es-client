@@ -18,7 +18,7 @@ const AWS = require('aws-sdk')
  * 
  * @module aws-es-client
  * 
- * @param {Options} opts - {@link Options} to be passed to instanciate a new client
+ * @param {Options} opts - Options to be passed to instanciate a new client
  * @return {ES} New ElasticSearch client
  *
  * @example
