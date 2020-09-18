@@ -6,7 +6,6 @@
 
 [![](https://img.shields.io/github/workflow/status/kaskadi/aws-es-client/publish?label=publish&logo=npm)](https://github.com/kaskadi/aws-es-client/actions?query=workflow%3Apublish)
 [![](https://img.shields.io/github/workflow/status/kaskadi/aws-es-client/build?label=build&logo=mocha)](https://github.com/kaskadi/aws-es-client/actions?query=workflow%3Abuild)
-[![](https://img.shields.io/github/workflow/status/kaskadi/aws-es-client/generate-docs?label=docs&logo=read-the-docs)](https://github.com/kaskadi/aws-es-client/actions?query=workflow%3Agenerate-docs)
 
 **CodeClimate**
 
