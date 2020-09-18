@@ -44,7 +44,7 @@ Name | Description
 
 Creates a new client connected to your AWS ElasticSearch cluster. 
 
-Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client (see [here]
+Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client. See [here] for details.
 
 **Returns**: `ES` - New ElasticSearch client  
 
@@ -79,5 +79,5 @@ ElasticSearch client options
 
 [aws-es-client]:#aws-es-client
 [Options]:#Options
-[here]:https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html) for details
+[here]:https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html
 [`Options`]:#options
