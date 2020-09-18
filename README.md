@@ -28,28 +28,29 @@ npm i aws-es-client
 
 # Usage
 
+## Modules
+Module | Description
+------ | -----------
+[aws-es-client] | Creates a new client connected to your AWS ElasticSearch cluster.
+
+## Typedefs
+
+Name | Description
+------ | -----------
+[Options] | ElasticSearch client options
+
+
 ## aws-es-client
-
-A module to generate a new client for your AWS ElasticSearch cluster.
-
-
-* [aws-es-client]
-    * [module.exports(opts)] ⏏
-        * [~Options]
-
-
-### module.exports(opts) ⏏
 
 Creates a new client connected to your AWS ElasticSearch cluster. 
 
 Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client (see [here]
 
-**Kind**: Exported function  
 **Returns**: `ES` - New ElasticSearch client  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| opts | `Options` | [Options] to be passed to instanciate a new client |
+| opts | [`Options`] | [Options] to be passed to instanciate a new client |
 
 **Example**  
 ```js
@@ -60,11 +61,11 @@ const ES = require('aws-es-client')({
 })
 ```
 
-#### module.exports~Options
+## Options
 
 ElasticSearch client options
 
-**Kind**: inner typedef of `module.exports`  
+**Kind**: global typedef  
 **Properties**
 
 | Name | Type | Default | Description |
@@ -77,7 +78,6 @@ ElasticSearch client options
 <!-- LINKS -->
 
 [aws-es-client]:#aws-es-client
-[~Options]:#moduleexportsoptions
+[Options]:#Options
 [here]:https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html) for details
-[Options]:#module_aws-es-client--module.exports..Options
-[module.exports(opts)]:#moduleexportsopts
+[`Options`]:#options
