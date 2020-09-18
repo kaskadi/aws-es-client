@@ -28,27 +28,28 @@ npm i aws-es-client
 
 # Usage
 
-<a name="module_aws-es-client"></a>
-
 ## aws-es-client
 
-* [aws-es-client](#module_aws-es-client)
-    * [module.exports(opts)](#exp_module_aws-es-client--module.exports) ⇒ <code>ES</code> ⏏
-        * [~Options](#module_aws-es-client--module.exports..Options) : <code>Object</code>
+A module to generate a new client for your AWS ElasticSearch cluster.
 
-<a name="exp_module_aws-es-client--module.exports"></a>
 
-### module.exports(opts) ⇒ <code>ES</code> ⏏
+* [aws-es-client]
+    * [module.exports(opts)] ⏏
+        * [~Options]
+
+
+### module.exports(opts) ⏏
+
 Creates a new client connected to your AWS ElasticSearch cluster. 
 
-Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client (see [here](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html) for details)
+Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client (see [here]
 
 **Kind**: Exported function  
-**Returns**: <code>ES</code> - New ElasticSearch client  
+**Returns**: `ES` - New ElasticSearch client  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| opts | <code>Options</code> | [Options](#module_aws-es-client--module.exports..Options) to be passed to instanciate a new client |
+| opts | `Options` | [Options] to be passed to instanciate a new client |
 
 **Example**  
 ```js
@@ -58,17 +59,25 @@ const ES = require('aws-es-client')({
  token: process.env.ES_SECRET
 })
 ```
-<a name="module_aws-es-client--module.exports..Options"></a>
 
-#### module.exports~Options : <code>Object</code>
+#### module.exports~Options
+
 ElasticSearch client options
 
-**Kind**: inner typedef of [<code>module.exports</code>](#exp_module_aws-es-client--module.exports)  
+**Kind**: inner typedef of `module.exports`  
 **Properties**
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
-| [region] | <code>string</code> | <code>&quot;eu-central-1&quot;</code> | ElasticSearch cluster region |
-| url | <code>string</code> |  | ElasticSearch cluster URL |
-| id | <code>string</code> |  | Programmatic user ID (needs access to ElasticSearch cluster) |
-| token | <code>string</code> |  | Programmatic user token (needs access to ElasticSearch cluster) |
+| \[region\] | `string` | `'eu-central-1'` | ElasticSearch cluster region |
+| url | `string` |  | ElasticSearch cluster URL |
+| id | `string` |  | Programmatic user ID (needs access to ElasticSearch cluster) |
+| token | `string` |  | Programmatic user token (needs access to ElasticSearch cluster) |
+
+<!-- LINKS -->
+
+[aws-es-client]:#aws-es-client
+[~Options]:#moduleexportsoptions
+[here]:https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html) for details
+[Options]:#module_aws-es-client--module.exports..Options
+[module.exports(opts)]:#moduleexportsopts
