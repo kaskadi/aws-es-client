@@ -31,8 +31,6 @@ jobs:
     needs: generate-docs
     steps:
     - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.ref }}
     - uses: actions/setup-node@v1
       with:
         node-version: 12
