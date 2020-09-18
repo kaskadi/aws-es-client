@@ -70,10 +70,10 @@ ElasticSearch client options
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
-| \[region\] | `string` | `'eu-central-1'` | ElasticSearch cluster region |
 | url | `string` |  | ElasticSearch cluster URL |
 | id | `string` |  | Programmatic user ID (needs access to ElasticSearch cluster) |
 | token | `string` |  | Programmatic user token (needs access to ElasticSearch cluster) |
+| \[region\] | `string` | `'eu-central-1'` | ElasticSearch cluster region |
 
 <!-- LINKS -->
 
