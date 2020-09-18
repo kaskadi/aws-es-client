@@ -26,7 +26,7 @@
 npm i aws-es-client
 ```
 
-# Usage
+# API documentation
 
 ## Modules
 Module | Description
@@ -50,7 +50,7 @@ Once the client has been instanciated, you can use all the methods available in 
 
 | Param | Type | Description |
 | --- | --- | --- |
-| opts | [`Options`] | [Options] to be passed to instanciate a new client |
+| opts | [`Options`] | Options to be passed to instanciate a new client |
 
 **Example**  
 ```js
@@ -78,6 +78,6 @@ ElasticSearch client options
 <!-- LINKS -->
 
 [aws-es-client]:#aws-es-client
-[Options]:#Options
+[Options]:#options
 [here]:https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html
 [`Options`]:#options
