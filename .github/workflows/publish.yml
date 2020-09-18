@@ -28,6 +28,7 @@ jobs:
         template: docs/template.md
   publish:
     runs-on: ubuntu-latest
+    needs: generate-docs
     steps:
     - uses: actions/checkout@v2
       with:
