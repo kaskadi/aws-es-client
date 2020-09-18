@@ -14,7 +14,7 @@ const AWS = require('aws-sdk')
 /**
  * Creates a new client connected to your AWS ElasticSearch cluster. 
  * 
- * Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client (see {@link https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html|here} for details)
+ * Once the client has been instanciated, you can use all the methods available in the regular ElasticSearch Node client. See {@link https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html|here} for details.
  * 
  * @module aws-es-client
  * 
